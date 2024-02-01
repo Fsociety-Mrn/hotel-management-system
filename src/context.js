@@ -11,7 +11,7 @@ export default class RoomProvider extends Component {
     featuredRooms: [],
     loading: true,
     //
-    type: "all",
+    type: "All",
     capacity: 1,
     price: 0,
     minPrice: 0,
@@ -113,7 +113,7 @@ export default class RoomProvider extends Component {
     capacity = parseInt(capacity);
     price = parseInt(price);
     // filter by type
-    if (type !== "all") {
+    if (type !== "All") {
       tempRooms = tempRooms.filter(room => room.type === type);
     }
     // filter by capacity
