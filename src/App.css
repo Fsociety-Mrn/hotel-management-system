@@ -101,6 +101,23 @@ h6 {
   display: flex;
   justify-content: space-between;
 }
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 100px;
+  height: auto;
+  margin-right: 10px; 
+}
+
+.logo-letter {
+  font-size: 22px; 
+  font-weight: bold;
+  color: black;
+  font-family: 'Protest Riot', sans-serif;
+}
 .nav-btn {
   background: transparent;
   border: none;
@@ -110,6 +127,9 @@ h6 {
 .nav-icon {
   font-size: 1.5rem;
   color: var(--primaryColor);
+}
+.nav-link {
+  color: black; /* Set the text color to black */
 }
 .nav-links {
   height: 0;
@@ -138,6 +158,10 @@ h6 {
 @media screen and (min-width: 768px) {
   .nav-btn {
     display: none;
+  }
+  .nav-logo {
+    width: 50px;
+    height: auto;
   }
   .nav-center {
     max-width: 1170px;

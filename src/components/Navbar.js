@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { FaAlignRight } from "react-icons/fa";
 
-import logo from "../images/logo.svg";
+import logo from "../images/logo.png";
 
 export default class Navbar extends Component {
   state = {
@@ -16,8 +16,9 @@ export default class Navbar extends Component {
       <nav className="navbar">
         <div className="nav-center">
           <div className="nav-header">
-            <Link to="/">
-              <img src={logo} alt="PEGaSAUCE" />
+          <Link to="/" className="logo-container" >
+              <img src={logo} alt="DO HOTEL" className="nav-logo"/>
+              <span className="logo-letter">DO HOTEL</span>
             </Link>
             <button
               type="button"
