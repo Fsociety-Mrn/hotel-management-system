@@ -7,6 +7,7 @@ import SingleRoom from "./pages/SingleRoom";
 import Error from "./pages/Error";
 
 import Navbar from "./components/Navbar";
+import Footer from "./footer/Footer";
 
 import { Switch, Route } from "react-router-dom";
 
@@ -26,6 +27,8 @@ function App() {
         <Route component={Error} />
 
       </Switch>
+
+      <Footer />
     </>
   );
 }
