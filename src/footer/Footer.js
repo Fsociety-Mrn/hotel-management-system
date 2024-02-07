@@ -8,7 +8,7 @@ const Footer=()=>{
             <div className="sb__footer section__padding">
                 <div className="sb__footer-links">
                   <div className="sb__footer-links_div">
-                        <h4>For Business</h4>
+                        <h4>FOR BUSINESS</h4>
                         <a href="/employer">
                             <p>Employer</p>
                         </a>
@@ -20,7 +20,7 @@ const Footer=()=>{
                         </a>
                   </div>
                   <div className="sb__footer-links_div">
-                    <h4>Resources</h4>
+                    <h4>RESOURCES</h4>
                     <a href="/resource">
                             <p>Resource Center</p>
                     </a>
@@ -32,13 +32,13 @@ const Footer=()=>{
                     </a>
                   </div>
                   <div className="sb__footer-links_div">
-                    <h4>Partners</h4>
+                    <h4>PARTNERS</h4>
                     <a href="/employer">
                             <p>hello friend</p>
                     </a>
                   </div>
                   <div className="sb__footer-links_div">
-                    <h4>Company</h4>
+                    <h4>COMPANY</h4>
                     <a href="/about">
                             <p>About</p>
                     </a>
@@ -53,12 +53,12 @@ const Footer=()=>{
                     </a>
                   </div>
                   <div className="sb__footer-links_div">
-                    <h4>Our Socials</h4>
+                    <h4>OUR SOCIALS</h4>
                     <div className="socialmedia">
-                        <p><FaFacebook className="icons facebook"/></p>
-                        <p><FaTwitter className="icons twitter"/></p>
-                        <p><FaInstagram className="icons instagram"/></p>
-                        <p><FaLinkedin className="icons linkedin"/></p>
+                        <p><FaFacebook className="facebook" size={30}/></p>
+                        <p><FaTwitter className="twitter" size={30}/></p>
+                        <p><FaInstagram className="instagram" size={30}/></p>
+                        <p><FaLinkedin className="linkedin" size={30}/></p>
                     </div>
                   </div>
                 </div>
@@ -67,14 +67,12 @@ const Footer=()=>{
 
             <div className="sb__footer-below">
                 <p>
-                    @{new Date().getFullYear()} Do Hotel. All right reserved.
+                  ALL RIGHTS RESERVED. COPYRIGHT @{new Date().getFullYear()} 
                 </p>
             </div>
             <div className="sb__footer-below-links">
-                <a href="/terms"><div><p>Terms & Conditions</p></div></a>
-                <a href="/privacy"><div><p>Privacy</p></div></a>
-                <a href="/security"><div><p>Security</p></div></a>
-                <a href="/cookie"><div><p>Cookie Declaration</p></div></a>
+                <a href="/terms"><div><p>Terms of Use</p></div></a>
+                <a href="/privacy"><div><p>Privacy Policy</p></div></a>
             </div>
 
             </div>

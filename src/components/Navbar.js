@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { FaAlignRight } from "react-icons/fa";
 
-import logo from "../images/logo.png";
+import logo from "../images/dlogo.png";
 
 export default class Navbar extends Component {
   state = {

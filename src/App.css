@@ -89,18 +89,20 @@ h6 {
 /* end of globals */
 /* Navbar */
 .navbar {
-  position: fixed;
+  position: fixed;  
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0.75rem 2rem;
+  padding: 5rem 2rem;
   background: var(--offWhite);
   z-index: 1;
 }
 .nav-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
+
 .logo-container {
   display: flex;
   align-items: center;
@@ -109,15 +111,15 @@ h6 {
 .navbar-logo {
   width: 100px;
   height: auto;
-  margin-right: 10px; 
+  align-items: center;
 }
 
 .logo-letter {
   font-size: 22px; 
   font-weight: bold;
-  color: black;
-  font-family: 'Protest Riot', sans-serif;
+  color: var(--primaryColor);
 }
+
 .nav-btn {
   background: transparent;
   border: none;
