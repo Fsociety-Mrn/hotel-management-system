@@ -93,7 +93,7 @@ h6 {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 5rem 2rem;
+  padding: 2rem 2rem;
   background: var(--offWhite);
   z-index: 1;
 }
@@ -138,6 +138,21 @@ h6 {
   overflow: hidden;
   transition: var(--mainTransition);
   list-style-type: none;
+}
+.book-now-btn {
+  background-color: var(--primaryColor); /* Primary color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  border-radius: 5px; /* Slight rounding of corners */
+  outline: none; /* Removes the outline to keep the flat design */
+}
+
+.book-now-btn:hover {
+  background-color: #0b829a; /* Darker shade on hover */
 }
 .nav-links a {
   display: block;

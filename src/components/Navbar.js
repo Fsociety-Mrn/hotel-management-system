@@ -37,6 +37,9 @@ export default class Navbar extends Component {
             <li>
               <Link to="/rooms">ROOMS</Link>
             </li>
+            <li>
+              <button className="book-now-btn" to="/">BOOK NOW</button>
+            </li>
           </ul>
         </div>
       </nav>
